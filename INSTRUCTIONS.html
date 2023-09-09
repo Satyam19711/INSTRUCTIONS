@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTRUCTIONS</title>
+    
+    <style>
+        *{
+            text-align: center;
+        }
+        .grandfather{
+            width:100%;
+            border: dashed black 1px;
+            height:650px;
+            display:flex;
+        }
+        .father{
+            width:48%;
+            margin:15px;
+            margin-left: 25px;
+            text-align: left;
+            border: dashed black 1px;
+        }
+        .uncle{
+            width:48%;
+            margin:15px;
+            border: dashed black 1px;
+            padding:10px;
+        }
+        .person1{
+            margin:25px;
+            width:40%;
+            height:88%;
+            display: flex;
+            border: dashed black 1px;
+        }
+        .child{
+            height:90%;
+            margin:15px;
+            width:17%;
+            border: 1px solid black;
+        }
+        .insidechild{
+            font-size: 40px;  
+            border: dashed black 1px;
+            margin:10px;
+        }
+        .uncle> .person2{
+            margin:20px;
+            border: dashed black 1px;
+            padding: 10px;
+        }
+        .children{
+            margin: 15px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .children>div{
+            height:50px;
+            font-size:40px ;
+            margin: 15px;
+            border: dashed black 1px;
+        }
+        .children22{
+            padding:10px;
+        }
+        
+
+
+    </style>    
+        
+</head>
+<body>
+
+    <div>
+        <div class="grandfather">Grandfather
+            <div class="father">Father
+                <div class="person1">Person-1
+                    <div class="child">Child-1</div>
+                    <div class="child">Child-2</div>
+                    <div class="child"   > Child-3
+                        <div style="padding: 3px;" class="insidechild">1</div>
+                        <div style="padding: 3px;" class="insidechild">2</div>
+                        <div style="padding: 3px;" class="insidechild">3</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="uncle">Uncle
+                <div class="person2">Person-1</div>
+                <div class="person2">Person-2
+                    <div class="children">Child-1</div>
+                    <div class="children" style="padding:10px;">Child-2
+                        <div style="background-color: orange;" >1</div>
+                        <div style="background-color:  white;" >2</div>
+                        <div style="background-color:  green;" >3</div>
+                    </div>
+                    <div class="children">Child-3</div>
+                </div>
+                <div class="person2">Person-3</div>
+            </div>
+        </div>
+        
+</body>
+</html>
+
+
+        
